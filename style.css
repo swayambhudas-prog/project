@@ -3,22 +3,28 @@ body {
     background-color: #eae5e5;
     background-image: url("assets/WhatsApp\ Image\ 2026-07-16\ at\ 12.17.56\ AM.jpeg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
 }
 h2 {
     text-align: center;
     margin-top: 50px;
     color: #333;
+    width: 350px;
 }
 form {
     width: 350px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #bababa;
-    border-radius: 8px;
+    padding: 25px;
+    background: rgba(43, 40, 40, 0.116);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 label {
     font-weight: bold;
