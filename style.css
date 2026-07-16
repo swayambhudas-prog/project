@@ -1,4 +1,4 @@
-body {
+body{
     font-family: Arial;
     background-color: #eae5e5;
     background-image: url("assets/WhatsApp\ Image\ 2026-07-16\ at\ 12.17.56\ AM.jpeg");
@@ -10,14 +10,14 @@ body {
     align-items: center;
     height: 100vh; 
 }
-h2 {
+h2{
     text-align: center;
     margin-top: 50px;
     color: #333;
     width: 402.5px;
     font-size: 2em;
 }
-form {
+form{
     width: 350px;
     padding: 25px;
     background: rgba(43, 40, 40, 0.116);
@@ -27,13 +27,13 @@ form {
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-label {
+label{
     font-weight: bold;
     color: #333;
     color : rgb(96, 255, 215);
     font-size: 1.2em;
 }
-input {
+input{
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -43,7 +43,7 @@ input {
     box-sizing: border-box;
     font-size: 1.2em;
 }
-button {
+button{
     width: 100%;
     padding: 10px;
     background-color: #0078D7;
@@ -55,6 +55,6 @@ button {
     font-size: 1.3em;
     font-weight: bold;
 }
-button:hover {
+button:hover{
     background-color: #005fa3;
 }
